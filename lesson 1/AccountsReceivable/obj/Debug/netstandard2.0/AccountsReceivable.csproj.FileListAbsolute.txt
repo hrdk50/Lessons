@@ -1,0 +1,7 @@
+C:\Radixweb\New folder\New folder\lesson 1\AccountsReceivable\bin\Debug\netstandard2.0\AccountsReceivable.deps.json
+C:\Radixweb\New folder\New folder\lesson 1\AccountsReceivable\bin\Debug\netstandard2.0\AccountsReceivable.dll
+C:\Radixweb\New folder\New folder\lesson 1\AccountsReceivable\bin\Debug\netstandard2.0\AccountsReceivable.pdb
+C:\Radixweb\New folder\New folder\lesson 1\AccountsReceivable\obj\Debug\netstandard2.0\AccountsReceivable.AssemblyInfoInputs.cache
+C:\Radixweb\New folder\New folder\lesson 1\AccountsReceivable\obj\Debug\netstandard2.0\AccountsReceivable.AssemblyInfo.cs
+C:\Radixweb\New folder\New folder\lesson 1\AccountsReceivable\obj\Debug\netstandard2.0\AccountsReceivable.dll
+C:\Radixweb\New folder\New folder\lesson 1\AccountsReceivable\obj\Debug\netstandard2.0\AccountsReceivable.pdb

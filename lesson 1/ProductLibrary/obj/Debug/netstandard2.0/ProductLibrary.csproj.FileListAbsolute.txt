@@ -1,0 +1,15 @@
+C:\Radixweb\New folder\New folder\ProductLibrary\bin\Debug\netstandard2.0\ProductLibrary.deps.json
+C:\Radixweb\New folder\New folder\ProductLibrary\bin\Debug\netstandard2.0\ProductLibrary.dll
+C:\Radixweb\New folder\New folder\ProductLibrary\bin\Debug\netstandard2.0\ProductLibrary.pdb
+C:\Radixweb\New folder\New folder\ProductLibrary\obj\Debug\netstandard2.0\ProductLibrary.AssemblyInfoInputs.cache
+C:\Radixweb\New folder\New folder\ProductLibrary\obj\Debug\netstandard2.0\ProductLibrary.AssemblyInfo.cs
+C:\Radixweb\New folder\New folder\ProductLibrary\obj\Debug\netstandard2.0\ProductLibrary.dll
+C:\Radixweb\New folder\New folder\ProductLibrary\obj\Debug\netstandard2.0\ProductLibrary.pdb
+C:\Radixweb\New folder\New folder\lesson 1\ProductLibrary\bin\Debug\netstandard2.0\ProductLibrary.deps.json
+C:\Radixweb\New folder\New folder\lesson 1\ProductLibrary\bin\Debug\netstandard2.0\ProductLibrary.dll
+C:\Radixweb\New folder\New folder\lesson 1\ProductLibrary\bin\Debug\netstandard2.0\ProductLibrary.pdb
+C:\Radixweb\New folder\New folder\lesson 1\ProductLibrary\obj\Debug\netstandard2.0\ProductLibrary.csprojAssemblyReference.cache
+C:\Radixweb\New folder\New folder\lesson 1\ProductLibrary\obj\Debug\netstandard2.0\ProductLibrary.AssemblyInfoInputs.cache
+C:\Radixweb\New folder\New folder\lesson 1\ProductLibrary\obj\Debug\netstandard2.0\ProductLibrary.AssemblyInfo.cs
+C:\Radixweb\New folder\New folder\lesson 1\ProductLibrary\obj\Debug\netstandard2.0\ProductLibrary.dll
+C:\Radixweb\New folder\New folder\lesson 1\ProductLibrary\obj\Debug\netstandard2.0\ProductLibrary.pdb

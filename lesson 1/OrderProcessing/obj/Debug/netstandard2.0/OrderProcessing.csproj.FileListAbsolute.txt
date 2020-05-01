@@ -1,0 +1,7 @@
+C:\Radixweb\New folder\New folder\lesson 1\OrderProcessing\bin\Debug\netstandard2.0\OrderProcessing.deps.json
+C:\Radixweb\New folder\New folder\lesson 1\OrderProcessing\bin\Debug\netstandard2.0\OrderProcessing.dll
+C:\Radixweb\New folder\New folder\lesson 1\OrderProcessing\bin\Debug\netstandard2.0\OrderProcessing.pdb
+C:\Radixweb\New folder\New folder\lesson 1\OrderProcessing\obj\Debug\netstandard2.0\OrderProcessing.AssemblyInfoInputs.cache
+C:\Radixweb\New folder\New folder\lesson 1\OrderProcessing\obj\Debug\netstandard2.0\OrderProcessing.AssemblyInfo.cs
+C:\Radixweb\New folder\New folder\lesson 1\OrderProcessing\obj\Debug\netstandard2.0\OrderProcessing.dll
+C:\Radixweb\New folder\New folder\lesson 1\OrderProcessing\obj\Debug\netstandard2.0\OrderProcessing.pdb
