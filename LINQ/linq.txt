@@ -1,0 +1,175 @@
+use tempdb
+
+-- 1 --
+create table Employees(
+EmployeeId int primary key,
+FirstName varchar(30),
+LastName varchar(30),
+Salary int,
+JoiningDate datetime,
+department varchar(30)
+)
+
+
+-- 2 --
+MyDBDataContext sqlObj = new MyDBDataContext();
+var employees = from emps in sqlObj.Employees
+                 select new
+                 {
+                  emps.EmployeeID,
+                  emps.FirstName,
+				  emps.LastName,
+                  emps.Salary,
+				  emps.JoiningDate,
+				  emps.department
+                 };
+Employee.DataSource = employees;
+Employee.DataBind();
+
+-- 3 --
+MyDBDataContext sqlObj = new MyDBDataContext();
+var employees = from emps in sqlObj.Employees
+                 select new
+                 {
+                  emps.FirstName,
+				  emps.LastName,
+                 };
+Employee.DataSource = employees;
+Employee.DataBind();
+
+-- 4 --
+MyDBDataContext sqlObj = new MyDBDataContext();
+var employees = from emps in sqlObj.Employees
+                           select new
+                           {  EmployeeName = emps.FirstName                         
+                           };
+Employee.DataSource = employees;
+Employee.DataBind();
+
+-- 5 --
+MyDBDataContext sqlObj = new MyDBDataContext();						   
+var employees = from emps in sqlObj.Employees
+                           select new
+                           {  EmployeeName = emps.FirstName.ToUpper()                         
+                           };
+Employee.DataSource = employees;
+Employee.DataBind();
+
+-- 6 --
+MyDBDataContext sqlObj = new MyDBDataContext();						   
+var employees = from emps in sqlObj.Employees
+                           select new
+                           {  EmployeeName = emps.FirstName.ToLower()                         
+                           };
+Employee.DataSource = employees;
+Employee.DataBind();
+
+--7--
+MyDBDataContext sqlObj = new MyDBDataContext();						   
+var employees = from emps in sqlObj.Employees
+                           select new
+                           {
+						   emps.department                         
+                           }
+						   where emps.department.Distinct();
+Employee.DataSource = employees;
+Employee.DataBind();
+
+-- 8 --
+MyDBDataContext sqlObj = new MyDBDataContext();						   
+var firstName = from fname in sqlObj.Employees
+                            select new
+                            {
+                                Latters = fname.FirstName.Substring(0, 3)
+                            };
+Employee.DataSource = employees;
+Employee.DataBind();
+
+-- 14 --
+MyDBDataContext sqlObj = new MyDBDataContext();	
+ var singleColumn = from emps in sqlObj.Employees
+                            select new
+                            {
+                                Name = emps.FirstName + '_' + emps.LastName
+                            };
+
+Employee.DataSource = employees;
+Employee.DataBind();
+
+-- 15 --
+MyDBDataContext sqlObj = new MyDBDataContext();	
+ var joininginfo = from emps in sqlObj.Employees
+                            select new
+                            {
+                                emps.FirstName, emps.JoiningDate
+                            };
+
+Employee.DataSource = employees;
+Employee.DataBind();
+
+-- 16 --
+MyDBDataContext sqlObj = new MyDBDataContext();	
+ var employees = from emps in sqlObj.Employees
+							orderby(emp.FirstName)
+                            select new
+                            {
+                  emps.EmployeeID,
+                  emps.FirstName,
+				  emps.LastName,
+                  emps.Salary,
+				  emps.JoiningDate,
+				  emps.department
+                            };
+
+Employee.DataSource = employees;
+Employee.DataBind();
+
+
+-- 28 --
+MyDBDataContext sqlObj = new MyDBDataContext();	
+var employees = from emps in sqlObj.Employees					   
+					where emps.Salary < 800000
+                            select new
+                            {
+                                emp.EmployeeId,
+                                emp.FirstName,
+                                emp.LastName,
+                                emp.Salary,
+                                emp.JoiningDate,
+                                emp.Department
+                            };
+Employee.DataSource = employees;
+Employee.DataBind();
+
+-- 29 --
+MyDBDataContext sqlObj = new MyDBDataContext();	
+var employees = from emps in sqlObj.Employees					   
+					where emps.Salary > 500000 && emps.Salary < 800000
+                            select new
+                            {
+                                emp.EmployeeId,
+                                emp.FirstName,
+                                emp.LastName,
+                                emp.Salary,
+                                emp.JoiningDate,
+                                emp.Department
+                            };
+Employee.DataSource = employees;
+Employee.DataBind();
+
+-- 30 --
+MyDBDataContext sqlObj = new MyDBDataContext();	
+var employees = from emps in sqlObj.Employees					   
+					where emps.FirstName == "John" || emps.FirstName == "Michael"
+                            select new
+                            {
+                                emp.EmployeeId,
+                                emp.FirstName,
+                                emp.LastName,
+                                emp.Salary,
+                                emp.JoiningDate,
+                                emp.Department
+                            };
+Employee.DataSource = employees;
+Employee.DataBind();
+
